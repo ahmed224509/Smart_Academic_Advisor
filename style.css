@@ -1,0 +1,69 @@
+/* تنسيق عام لخلفية الموقع والخطوط */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* لون خلفية مريح للعين */
+    color: #333333; /* لون النص الأساسي */
+    line-height: 1.8;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto; /* لجعله في منتصف الشاشة تماماً */
+}
+
+/* تنسيق العنوان الرئيسي للنظام الأكاديمي */
+h1 {
+    color: #1a365d; /* لون أزرق جامعي رسمي */
+    border-bottom: 3px solid #3182ce; /* خط تحت العنوان */
+    padding-bottom: 10px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* تنسيق العناوين الفرعية */
+h2 {
+    color: #2c5282;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* تنسيق الفقرات النصية */
+p {
+    font-size: 16px;
+    color: #4a5568;
+    background-color: #ffffff; /* وضع النص داخل مربع أبيض */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* ظل خفيف جداً */
+}
+
+/* تنسيق القائمة الرقمية للأهداف */
+ol {
+    background-color: #ffffff;
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #2d3748;
+}
+
+/* تنسيق روابط الانتقال بين الصفحات لجعلها مثل الأزرار الاحترافية */
+a {
+    display: inline-block;
+    background-color: #3182ce; /* لون الزر */
+    color: white;
+    text-decoration: none; /* إلغاء الخط تحت الرابط */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease; /* حركة ناعمة عند مرور الماوس */
+}
+
+/* تأثير عند تمرير الماوس فوق الرابط */
+a:hover {
+    background-color: #2b6cb0; /* يصبح اللون أغمق قليلاً */
+}
