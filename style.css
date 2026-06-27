@@ -50,8 +50,8 @@ li {
     color: #2d3748;
 }
 
-/* تنسيق روابط الانتقال بين الصفحات لجعلها مثل الأزرار الاحترافية */
-a {
+/* تنسيق الروابط والأزرار */
+a, #calcGpaBtn {
     display: inline-block;
     background-color: #3182ce; /* لون الزر */
     color: white;
@@ -60,10 +60,25 @@ a {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
     transition: background-color 0.3s ease; /* حركة ناعمة عند مرور الماوس */
 }
 
-/* تأثير عند تمرير الماوس فوق الرابط */
-a:hover {
+/* تأثير عند تمرير الماوس فوق الرابط أو الزر */
+a:hover, #calcGpaBtn:hover {
     background-color: #2b6cb0; /* يصبح اللون أغمق قليلاً */
+}
+
+/* قسم عرض النتيجة */
+.calc-section {
+    margin-top: 20px;
+}
+
+#resultBox {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c5282;
 }
